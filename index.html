@@ -1,0 +1,46 @@
+<html>
+<head>
+  <meta charset=utf-8 />
+  <title>Ebola Crisis in Western Africa</title>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+    <!-- Load Leaflet from CDN-->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+        <link rel="stylesheet" href="css/leaflet-search.css" />   
+    <!-- This is the most important CSS you load, besides Leaflet -->
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+</head>
+    
+<body>
+    <!-- Your map DIV, which in the main.css is made to fill the screen.-->
+    <div id="map"></div>
+		
+    <!-- Your slider panel, which is placed on top of the map and specifically located in your main.css file-->
+    <div id="panel">
+        <div id="sliderTitle">
+        <p><strong>Ebola Crisis 2014 - 2016</strong></p>
+        </div>
+    </div>	
+
+<!-- You load all of your external script files, including all of your JavaScript code at the end of the body. Load your code last, after importing all of the other libraries.-->
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="js/qgis2web_expressions.js"></script>
+<script src="jsLayers/leaflet.js"></script> 
+<script src="jsLayers/leaflet-heat.js"></script>
+    
+    <!-- Load Esri Leaflet from CDN -->
+    <script src="https://unpkg.com/esri-leaflet@2.0.7"></script>
+
+<script src="jsLayers/leaflet.rotatedMarker.js"></script>
+<script src="jsLayers/OSMBuildings-Leaflet.js"></script>
+<script src="jsLayers/leaflet-hash.js"></script>
+<script src="jsLayers/Autolinker.min.js"></script>
+<script src="jsLayers/leaflet.markercluster.js"></script>
+<script src="js/leaflet-search.js"></script>
+    
+<!-- Always call your .JS file last, after the other, external JS files. This way you can use jQuery and Leaflet code in your JS file, and the browser will know what it's reading, because it already read the other script files that translate the jquery and leaflet code.--> 
+<script src="js/mainIan.js"></script>
+
+
+</body>
+</html>

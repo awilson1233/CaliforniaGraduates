@@ -1,0 +1,28 @@
+FID,Shape,Country,CountryFul,Town,LabCases,AllCases,Deaths,SusDeathRT,LabDeathRT,Species,Year
+0,Polygon,Dem. Rep. of Congo,Democratic Republic of The Congo,Yambuku,318,318,280,0.880503,0.880503,Zaire ebolavirus,1976
+1,Polygon,South Sudan,South Sudan,Nzara,284,284,151,0.53169,0.53169,Sudan ebolavirus,1976
+2,Polygon,Dem. Rep. of Congo,Democratic Republic of The Congo,Tandala,1,1,1,1,1,Zaire ebolavirus,1977
+3,Polygon,South Sudan,South Sudan,Nzara,34,34,22,0.647059,0.647059,Sudan ebolavirus,1979
+4,Polygon,Gabon,Gabon,Mekouka,52,52,31,0.596154,0.596154,Zaire ebolavirus,1994
+5,Polygon,Ivory Coast,C“te d'Ivoire,Tai Forest,1,1,0,0,0,Ta‹ Forest ebolavirus,1994
+6,Polygon,Dem. Rep. of Congo,Democratic Republic of The Congo,Kikwit,315,315,250,0.793651,0.793651,Zaire ebolavirus,1995
+7,Polygon,Gabon,Gabon,Mayibout,37,37,21,0.567568,0.567568,Zaire ebolavirus,1996
+8,Polygon,Gabon,Gabon,Booue,60,60,45,0.75,0.75,Zaire ebolavirus,1996
+9,Polygon,South Africa,South Africa,Johannesburg,2,2,1,0.5,0.5,Zaire ebolavirus,1996
+10,Polygon,Uganda,Uganda,Gulu,425,425,224,0.527059,0.527059,Zaire ebolavirus,2000
+11,Polygon,Gabon,Gabon,Libreville,65,65,53,0.815385,0.815385,Zaire ebolavirus,2001
+12,Polygon,Republic of Congo,Congo,Not specified,57,57,43,0.754386,0.754386,Zaire ebolavirus,2001
+13,Polygon,Republic of Congo,Congo,Mbomo,143,143,128,0.895105,0.895105,Zaire ebolavirus,2002
+14,Polygon,Republic of Congo,Congo,Mbomo,35,35,29,0.828571,0.828571,Zaire ebolavirus,2003
+15,Polygon,South Sudan,South Sudan,Yambio,17,17,7,0.411765,0.411765,Zaire ebolavirus,2004
+16,Polygon,Dem. Rep. of Congo,Democratic Republic of The Congo,Luebo,264,264,187,0.708333,0.708333,Zaire ebolavirus,2007
+17,Polygon,Uganda,Uganda,Bundibugyo,149,149,37,0.248322,0.248322,Bundibugyo ebolavirus,2007
+18,Polygon,Dem. Rep. of Congo,Democratic Republic of The Congo,Luebo,32,32,15,0.46875,0.46875,Zaire ebolavirus,2008
+19,Polygon,Uganda,Uganda,Luwero District,1,1,1,1,1,Sudan ebolavirus,2011
+20,Polygon,Uganda,Uganda,Kibaale District,11,11,4,0.363636,0.363636,Sudan ebolavirus,2012
+21,Polygon,Dem. Rep. of Congo,Democratic Republic of The Congo,Isiro Health Zone,36,36,13,0.361111,0.361111,Bundibugyo ebolavirus,2012
+22,Polygon,Uganda,Uganda,Luwero District,6,6,3,0.5,0.5,Sudan ebolavirus,2012
+23,Polygon,Guinea,Guinea,Mulitple,423,579,396,0.683938,0.93617,Zaire ebolavirus,2014
+24,Polygon,Liberia,Liberia,Multiple,972,972,576,0.592593,0.592593,Zaire ebolavirus,2014
+25,Polygon,Nigeria,Nigeria,Multiple,12,15,4,0.266667,0.333333,Zaire ebolavirus,2014
+26,Polygon,Sierra Leone,Sierra Leone,Mulitple,783,907,374,0.412348,0.47765,Zaire ebolavirus,2014

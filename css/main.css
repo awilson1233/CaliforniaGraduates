@@ -1,0 +1,78 @@
+ /*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+
+
+html,body,#map {
+    color: #636363;
+    font-family: Corbel, Arial, sans-serif;
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+}
+
+/*This is the DIV in which you place the slider. You can therefore place this DIV anywhere in your html. z-index floats it above everything else. position:fixed makes it stay where it is, no matter if people scroll the page. right: 5px means it starts 5 pixels from the browser's right-hand edge. bottom: 25px means it starts 25 px from the bottom (to clear the credits)*/
+
+#panel{
+    position: fixed;
+    right: 5px;
+    bottom: 25px;
+    background-color:rgba(255,255,255,1);
+    width:auto;
+    height:auto;
+    z-index: 1000;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:0;
+    padding-bottom: 5px;
+}
+
+/*I added this so you can put whatever text you want in the DIV to give your map user's directions. This DIV is inside of the Panel DIV.*/
+
+#sliderTitle {
+    font-family: Corbel, Arial, sans-serif;
+    font-size: large;
+    text-align:center;
+    height:30px;
+    width:auto;
+    padding: 0;
+    margin: 0;
+}
+    
+.sequence-control-container {
+    width: auto;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 0;
+    border: solid gray 1px;
+	display: inline-block;
+}
+
+/*You can change how big the slider is here. The other DIVs widths are set to "auto" so they should expand or contract with this.*/
+.range-slider {
+    width: 200px;
+}
+
+/*Your legend is nice. You may want to add a semi-transparent background to help with legibility when moving the map, though.*/
+.legend {
+    line-height: 30px;
+    color: #555;
+	background-color:rgba(255,255,255,1);
+	opacity: 5;
+	padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 0;
+	
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 5;
+	
+}
+
+

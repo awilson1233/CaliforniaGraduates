@@ -1,0 +1,104 @@
+<html>
+<head>
+  <meta charset=utf-8 />
+  <title>Ebola Crisis in Western Africa</title>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+  <!-- Load Leaflet from CDN-->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css\main.css" />
+<link rel="stylesheet" href="css/leaflet-search.css" />
+
+  <!-- Load Esri Leaflet from CDN -->
+  <script src="https://unpkg.com/esri-leaflet@2.0.7"></script>
+  
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <!--<script src="http://leaflet.ajax.min"type=text/javascript"></script>-->
+  <script type="text/javascript" src="lib/main.js"></script>
+
+<!-- script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script> -->
+
+
+  <style>
+    body { margin:0; padding:0; }
+    #map {
+    height: 670px;
+    width: 100%;
+    display: inline-block;
+}
+.sequence-control-container {
+    width: 350px;
+    height: 30px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px;
+    line-height: 45px;
+    text-align: center;
+    border: solid gray 1px;
+	display: inline-block;
+	margin-left: 8px;
+}
+
+.range-slider {
+    width: 200px;
+	margin-left: 8px
+}
+#panel {
+    width: 16%;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+#forward {
+    float: right;
+	width: 25px;
+}
+
+#reverse {
+    float: left;
+	width: 25px;
+}
+
+.legend {
+    line-height: 18px;
+    color: #555;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+  </style>
+  
+</head>
+<body>
+
+        <div id="map"></div>
+		<div id="panel"></div>
+		
+		
+		
+<!-- 		<script src="js/leaflet-search.min.js"></script>
+ -->		
+		<script src="js/qgis2web_expressions.js"></script>
+        <script src="jsLayers/leaflet.js"></script>
+        <script src="jsLayers/leaflet-heat.js"></script>
+        <script src="jsLayers/leaflet.rotatedMarker.js"></script>
+        <script src="jsLayers/OSMBuildings-Leaflet.js"></script>
+        <script src="jsLayers/leaflet-hash.js"></script>
+        <script src="jsLayers/Autolinker.min.js"></script>
+        <script src="jsLayers/leaflet.markercluster.js"></script>
+		<script src="js/leaflet-search.js"></script>
+
+
+<script>
+
+
+</script>
+
+</body>
+</html>
